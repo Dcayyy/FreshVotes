@@ -6,6 +6,7 @@
   </head>
   <body>
     <h1>FreshVotes Dashboard</h1>
+    <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
     <a href="/logout">Logout</a>
   </body>
 </html>
