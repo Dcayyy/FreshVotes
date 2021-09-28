@@ -12,9 +12,8 @@ public class Feature {
     private String description;
     private String status;
 
-
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long getId() {
         return id;
     }

@@ -1,12 +1,13 @@
 package com.freshvotes.freshvotes.domain;
 
+import java.io.Serializable;
+
 import javax.persistence.Embeddable;
 import javax.persistence.ManyToOne;
-import java.io.Serializable;
 
 @Embeddable
 public class CommentId implements Serializable {
-    public static final long serialVersionUID = 5928347189412567849L;
+    private static final long serialVersionUID = -3690211290276882371L;
     private User user;
     private Feature feature;
 
